@@ -1,3 +1,8 @@
+# Note -: Create New Flight LitElement 
+
+Create a new folder in src to add your component. And Lets start.
+
+
 # LitElement TypeScript starter 
 
 This project includes a sample component using LitElement with TypeScript.
