@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <title>&lt;my-element> Demo</title>
     <script type="module" src="../components/sample-component/my-element.js"></script>
+    <script type="module" src="../components/stoppage-widget/stoppage-widget.js"></script>
+    <script type="module" src="../components/timeline-component/timeline-element.js"></script>
     <style>
         p {
             border: solid 1px blue;
@@ -15,9 +17,10 @@
 </head>
 
 <body>
-    <my-element>
-        <p>This is child content</p>
-    </my-element>
+
+    <timeline-element Type="horizontal"></timeline-element>
+    <timeline-element Type="vertical"></timeline-element>
+
 </body>
 
 </html>
