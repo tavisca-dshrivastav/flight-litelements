@@ -9,7 +9,7 @@ export class StoppageWidget extends LitElement {
             position:absolute; 
         }
         .list-horizontal{
-            border-left: 6px solid black; 
+            border-top: 6px solid black; 
             width: 6em; 
             position:absolute;  
         }
