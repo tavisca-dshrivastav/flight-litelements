@@ -1,23 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>&lt;my-element> Demo</title>
-    <script type="module" src="../components/sample-component/my-element.js"></script>
+    <script
+      type="module"
+      src="../components/sample-component/my-element.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/traveller-counter/traveller-counter-view.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/traveller-counter/traveller-counter.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/traveller-counter/app-counter.js"
+    ></script>
     <style>
-        p {
-            border: solid 1px blue;
-            padding: 8px;
-        }
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <my-element>
-        <p>This is child content</p>
+      <p>This is child content</p>
     </my-element>
-</body>
-
+    <app-traveller-counter-view></app-traveller-counter-view>
+  </body>
 </html>
