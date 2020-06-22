@@ -1,0 +1,1 @@
+{"version":3,"file":"counter-element.d.ts","sourceRoot":"","sources":["../../src/pranita/counter-element.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAqC,MAAM,aAAa,CAAC;AAE3E,qBACa,cAAe,SAAQ,UAAU;IAC5C,MAAM,CAAC,MAAM,kCAOX;IAIF,IAAI,SAAa;IAIjB,KAAK,SAAK;IAEV,MAAM;IAUN,OAAO,CAAC,QAAQ;CAIjB;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,iBAAiB,EAAE,cAAc,CAAC;KACnC;CACF"}
