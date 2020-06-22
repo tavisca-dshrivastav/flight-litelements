@@ -10,27 +10,24 @@ export class CounterElement extends LitElement {
       max-width: 800px;
     }
   `;
-
  
-  @property()
-  name = 'Pranita';
-
-  
   @property({type: Number})
   count = 0;
 
   render() {
     return html`
-      <h1>Hello, ${this.name}!</h1>
-      <button @click=${this._onClick} part="button">
-        Click Count: ${this.count}
-      </button>
-      <slot></slot>
+    <button @click=${this._onClickDecrement} part="button"> - </button>
+    ${this.count}
+    <button @click=${this._onClickIncrement} part="button"> + </button>
+
     `;
   }
 
-  private _onClick() {
+  private _onClickIncrement() {
     this.count++;
+  }
+  private _onClickDecrement() {
+    this.count--;
   }
 
 }

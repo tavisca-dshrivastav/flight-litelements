@@ -8,20 +8,21 @@ import { LitElement, html, customElement, property, css } from 'lit-element';
 let CounterElement = class CounterElement extends LitElement {
     constructor() {
         super(...arguments);
-        this.name = 'Pranita';
         this.count = 0;
     }
     render() {
         return html `
-      <h1>Hello, ${this.name}!</h1>
-      <button @click=${this._onClick} part="button">
-        Click Count: ${this.count}
-      </button>
-      <slot></slot>
+    <button @click=${this._onClickDecrement} part="button"> - </button>
+    ${this.count}
+    <button @click=${this._onClickIncrement} part="button"> + </button>
+
     `;
     }
-    _onClick() {
+    _onClickIncrement() {
         this.count++;
+    }
+    _onClickDecrement() {
+        this.count--;
     }
 };
 CounterElement.styles = css `
@@ -32,9 +33,6 @@ CounterElement.styles = css `
       max-width: 800px;
     }
   `;
-__decorate([
-    property()
-], CounterElement.prototype, "name", void 0);
 __decorate([
     property({ type: Number })
 ], CounterElement.prototype, "count", void 0);
