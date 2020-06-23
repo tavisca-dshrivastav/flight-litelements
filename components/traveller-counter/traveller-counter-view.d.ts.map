@@ -1,0 +1,1 @@
+{"version":3,"file":"traveller-counter-view.d.ts","sourceRoot":"","sources":["../../src/traveller-counter/traveller-counter-view.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAwC,MAAM,aAAa,CAAC;AAE9E,qBACa,oBAAqB,SAAQ,UAAU;IAElD,cAAc,SAAK;IAEnB,MAAM;IA+BN,WAAW,CAAC,CAAC,EAAE,GAAG;CAQnB;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,4BAA4B,EAAE,oBAAoB,CAAC;KACpD;CACF"}
