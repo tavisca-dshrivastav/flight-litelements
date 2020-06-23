@@ -1,0 +1,1 @@
+{"version":3,"file":"brand-amenities.d.ts","sourceRoot":"","sources":["../../src/nikita/brand-amenities.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAqC,MAAM,aAAa,CAAC;AAE3E,qBACa,cAAe,SAAQ,UAAU;IAC5C,MAAM,CAAC,MAAM,kCA2BX;IAGF,OAAO,SAAyC;IAGhD,eAAe,SAA+C;IAG9D,MAAM;CA0BP;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,iBAAiB,EAAE,cAAc,CAAC;KACnC;CACF"}
