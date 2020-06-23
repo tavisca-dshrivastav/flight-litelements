@@ -56,7 +56,7 @@ let BrandAmenitiesDetails = class BrandAmenitiesDetails extends LitElement {
             >
           </div>
           <div>
-            <i class="sub-title-icon">!</i>
+            <span class="sub-title-icon">&#10071;</span>
             <label class="brand-amenities-detail-head-subTitle"
               >${this.subTitle}</label
             >
@@ -69,7 +69,7 @@ let BrandAmenitiesDetails = class BrandAmenitiesDetails extends LitElement {
                 brand_attributes=${i.values}
               >
               </brand-attribute-detail-component>
-              <i class="border"></i>`)}
+              <span class="border"></span>`)}
         </div>
       </div>
     `;

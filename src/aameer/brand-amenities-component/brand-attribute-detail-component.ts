@@ -41,12 +41,12 @@ export class BrandAttributeDetailComponent extends LitElement {
             .split(',')
             .map(
               (i) => html`<div class="brand-attribute-section">
-                <i class="brand-attribute-icon"
+                <span class="brand-attribute-icon"
                   >${this.availability === 'free'
                     ? html`&#9989;`
                     : this.availability === 'cash'
                     ? html`&dollar;`
-                    : html`&#10060;`} </i
+                    : html`&#10060;`} </span
                 ><label class="brand-attribute-name">${i}</label>
               </div>`
             )}
