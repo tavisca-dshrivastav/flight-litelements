@@ -25,7 +25,7 @@ let BrandAmenitiesDetails = class BrandAmenitiesDetails extends LitElement {
         return css `
       .brand-amenities-detail {
         display: inline-block;
-        border: solid 1px black;
+        border: solid 1px gray;
       }
       .brand-amenities-detail-body {
         border: solid 1px gray;
@@ -38,7 +38,7 @@ let BrandAmenitiesDetails = class BrandAmenitiesDetails extends LitElement {
         font-weight: bold;
       }
       .brand-attributes {
-        border: solid 1px black;
+        border: solid 1px gray;
       }
       .border {
         border: solid 1px gray;
