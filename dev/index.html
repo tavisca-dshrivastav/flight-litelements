@@ -32,6 +32,15 @@
       type="module"
       src="../components/aameer/outbound-flight-component/flight-detail-component.js"
     ></script>
+    <script
+      type="module"
+      src="../components/aameer/brand-amenities-component/brand-amenities-detail-component.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/aameer/brand-amenities-component/brand-attribute-detail-component.js"
+    ></script>
+
     <style>
       p {
         border: solid 1px blue;
@@ -54,5 +63,10 @@
       destinationTime="05:12"
       destinationTimeMeridiem="AM"
     ></app-outbound-flight-component>
+
+    <brand-amenities-detail-component
+      title="Warning: This fare has restrictions"
+      subTitle="basic economy is not available for upgrade"
+    ></brand-amenities-detail-component>
   </body>
 </html>
