@@ -1,0 +1,1 @@
+{"version":3,"file":"my-counter.d.ts","sourceRoot":"","sources":["../../src/nikita/my-counter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAuB,MAAM,aAAa,CAAC;AAE9D,qBAAa,OAAQ,SAAQ,UAAU;IAGnC,KAAK,SAAK;IAEV,OAAO,CAAC,YAAY;IAIpB,OAAO,CAAC,YAAY;IAMpB,MAAM,CAAC,MAAM,kCAqBX;IACF,MAAM;CAST;AAGD,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,YAAY,EAAE,OAAO,CAAC;KACvB;CACF"}
