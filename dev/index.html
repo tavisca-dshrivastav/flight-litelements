@@ -5,19 +5,30 @@
 <head>
     <meta charset="utf-8">
     <title>&lt;my-element> Demo</title>
-    <script type="module" src="../components/sample-component/my-element.js"></script>
+    <!-- <script type="module" src="../components/sample-component/my-element.js"></script>
+    <script type="module" src="../components/stoppage-widget/stoppage-widget.js"></script>
+    <script type="module" src="../components/timeline-component/timeline-element.js"></script> -->
+    <script type="module" src="../components/outbound-flight-component/outbound-flight-component.js"></script>
     <style>
         p {
             border: solid 1px blue;
             padding: 8px;
         }
+        
+        .outbound-fligh-component {
+            padding: .5em;
+            width: 30%;
+            border: 1px solid black;
+        }
     </style>
 </head>
 
 <body>
-    <my-element>
-        <p>This is child content</p>
-    </my-element>
+    <div class="outbound-fligh-component">
+        <outbound-flight-component></outbound-flight-component>
+
+    </div>
+
 </body>
 
 </html>
