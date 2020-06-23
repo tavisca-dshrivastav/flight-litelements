@@ -23,18 +23,20 @@ export class TimelineElement extends LitElement {
     }
     @property({type: String})
     public Type = TimelineElementType.Horizontal.toString();
+    @property({type: Object})
 
   render() {
+        
     return html`
     <div class="${this.Type}">
-        <div class="text-block-${this.Type}">
-        ${this.Type}
+        <!-- <div class="text-block-${this.Type}"> -->
+        <!-- ${this.Type} -->
         </div>    
         <div class="line-${this.Type}">
-        <stoppage-widget Type="${this.Type}" NoOfStoppage="5"></stoppage-widget>
+        <stoppage-widget Type="${this.Type}"></stoppage-widget>
         </div>    
-        <div class="text-block-${this.Type}">
-        ${this.Type}
+        <!-- <div class="text-block-${this.Type}"> -->
+        <!-- ${this.Type} -->
         </div>   
     </div>    
     `;

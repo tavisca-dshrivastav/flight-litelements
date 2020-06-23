@@ -1,4 +1,4 @@
-import { LitElement, html, customElement, css, property } from 'lit-element';
+import { LitElement, html, customElement, css, property, internalProperty } from 'lit-element';
 
 @customElement('stoppage-widget')
 export class StoppageWidget extends LitElement {
@@ -31,14 +31,19 @@ export class StoppageWidget extends LitElement {
             display: block
         }
      `;
-    @property({type: String})
-    public Type = "vertical";
+   
+   @property({type: String})
+    public Type = "horizontal";
+   
+    @internalProperty()
+    private stops: string[]=["AA", "KK"];
+    
     @property({type: Number})
-    public NoOfStoppage = 0;
+    public noOfStops = 0;
   render() {
     return html`
         <ul class="${this.Type}">
-            ${ new Array(this.NoOfStoppage).fill(this.NoOfStoppage).forEach(() => html`<li class="list-${this.Type}">Abc</li>`)}
+            ${ this.stops.map(x => html`<li class="list-${this.Type}">${x}</li>`)}
         </ul> 
     `;
   }

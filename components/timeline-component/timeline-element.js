@@ -19,13 +19,14 @@ let TimelineElement = class TimelineElement extends LitElement {
     render() {
         return html `
     <div class="${this.Type}">
-        <div class="text-block-${this.Type}">
+        <!-- <div class="text-block-${this.Type}"> -->
+        <!-- ${this.Type} -->
         </div>    
         <div class="line-${this.Type}">
-        <stoppage-widget Type="${this.Type}" NoOfStoppage="5"></stoppage-widget>
+        <stoppage-widget Type="${this.Type}"></stoppage-widget>
         </div>    
-        <div class="text-block-${this.Type}">
-        ${this.Type}
+        <!-- <div class="text-block-${this.Type}"> -->
+        <!-- ${this.Type} -->
         </div>   
     </div>    
     `;
@@ -44,6 +45,9 @@ TimelineElement.styles = css `
 __decorate([
     property({ type: String })
 ], TimelineElement.prototype, "Type", void 0);
+__decorate([
+    property({ type: Object })
+], TimelineElement.prototype, "render", null);
 TimelineElement = __decorate([
     customElement('timeline-element')
 ], TimelineElement);
