@@ -1,0 +1,1 @@
+{"version":3,"file":"slider-element.d.ts","sourceRoot":"","sources":["../../src/pranita/slider-element.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,UAAU,EAA2B,MAAM,aAAa,CAAC;AAGjE,qBACa,aAAc,SAAQ,UAAU;IAC3C,MAAM,CAAC,MAAM,kCASX;IAGF,MAAM;CAMP;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,gBAAgB,EAAE,aAAa,CAAC;KACjC;CACF"}

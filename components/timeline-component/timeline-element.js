@@ -20,6 +20,7 @@ let TimelineElement = class TimelineElement extends LitElement {
         return html `
     <div class="${this.Type}">
         <div class="text-block-${this.Type}">
+        ${this.Type}
         </div>    
         <div class="line-${this.Type}">
         <stoppage-widget Type="${this.Type}" NoOfStoppage="5"></stoppage-widget>

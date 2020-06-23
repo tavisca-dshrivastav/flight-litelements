@@ -26,7 +26,7 @@ StoppageWidget.styles = css `
             position:absolute; 
         }
         .list-horizontal{
-            border-left: 6px solid black; 
+            border-top: 6px solid black; 
             width: 6em; 
             position:absolute;  
         }
@@ -52,7 +52,7 @@ __decorate([
     property({ type: String })
 ], StoppageWidget.prototype, "Type", void 0);
 __decorate([
-    property({ type: Object })
+    property({ type: Number })
 ], StoppageWidget.prototype, "NoOfStoppage", void 0);
 StoppageWidget = __decorate([
     customElement('stoppage-widget')

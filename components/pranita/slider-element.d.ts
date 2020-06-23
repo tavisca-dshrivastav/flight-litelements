@@ -1,13 +1,11 @@
 import { LitElement } from 'lit-element';
-export declare class StoppageWidget extends LitElement {
+export declare class SliderElement extends LitElement {
     static styles: import("lit-element").CSSResult;
-    Type: string;
-    NoOfStoppage: number;
     render(): import("lit-element").TemplateResult;
 }
 declare global {
     interface HTMLElementTagNameMap {
-        'stoppage-widget': StoppageWidget;
+        'slider-element': SliderElement;
     }
 }
-//# sourceMappingURL=stoppage-widget.d.ts.map
+//# sourceMappingURL=slider-element.d.ts.map
