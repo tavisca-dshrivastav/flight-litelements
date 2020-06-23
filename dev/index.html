@@ -14,15 +14,23 @@
     ></script>
     <script
       type="module"
-      src="../components/traveller-counter/traveller-counter-view.js"
+      src="../components/aameer/traveller-counter/traveller-counter-view.js"
     ></script>
     <script
       type="module"
-      src="../components/traveller-counter/traveller-counter.js"
+      src="../components/aameer/traveller-counter/traveller-counter.js"
     ></script>
     <script
       type="module"
-      src="../components/traveller-counter/app-counter.js"
+      src="../components/aameer/traveller-counter/app-counter.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/aameer/outbound-flight-component/outbound-flight-component.js"
+    ></script>
+    <script
+      type="module"
+      src="../components/aameer/outbound-flight-component/flight-detail-component.js"
     ></script>
     <style>
       p {
@@ -37,5 +45,14 @@
       <p>This is child content</p>
     </counter-element>
     <app-traveller-counter-view></app-traveller-counter-view>
+    <app-outbound-flight-component
+      title="Your outbound flight"
+      originAirportCode="LAS"
+      originTime="02:21"
+      originTimeMeridiem="AM"
+      destinationAirportCode="LAX"
+      destinationTime="05:12"
+      destinationTimeMeridiem="AM"
+    ></app-outbound-flight-component>
   </body>
 </html>

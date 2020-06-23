@@ -1,4 +1,5 @@
 import {LitElement, customElement, html, internalProperty} from 'lit-element';
+import './traveller-counter';
 
 @customElement('app-traveller-counter-view')
 export class TravellerCounterView extends LitElement {
