@@ -2,11 +2,11 @@ import {LitElement, customElement, html, property , css} from 'lit-element';
 
 export class OrxeOutbound extends LitElement {
     @property({type: String})
-    from = "(DEL) 02.30 am";
-  
+    from = '(DEL) 02.30 am';
+
     @property({type: String})
-    to = "(BOM) 04.50 pm";
-   
+    to = '(BOM) 04.50 pm';
+    
     constructor() {
         super();
     }
@@ -25,14 +25,13 @@ export class OrxeOutbound extends LitElement {
             top: 0px;
             left: 10px;
             font-size: 16px;
-          } 
-          
+          }
           .topright {
             position: absolute;
             top: 0px;
             right: 10px;
             font-size: 14px;
-          }   
+          }
           .bottomleft {
             position: absolute;
             bottom: 8px;
@@ -42,14 +41,21 @@ export class OrxeOutbound extends LitElement {
         `;
     }
 
-    render(){
+    render() {
         return html`
         <div class="container">
         <label class="topleft">Your outbound flight</label>
-        <a href="https://www.google.com" class="topright">Change flight</a>
-        <label class="bottomleft">${this.from} --> ${this.to} </label>
+        <a href="" class="topright" @click="${this.onChnageFlightClicked}">Change flight</a>
+        <b><label class="bottomleft">${this.from} --> ${this.to} </label></b>
         </div>
         `;
 
+    }
+
+    onChnageFlightClicked(){      
+      let flightChangeEvent = new CustomEvent("flight-change-event", { 
+        detail: { URL: 'Test URL' }
+       });
+      this.dispatchEvent(flightChangeEvent);
     }
 }
