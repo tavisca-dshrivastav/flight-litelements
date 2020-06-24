@@ -5,7 +5,9 @@
 <head>
     <meta charset="utf-8">
     <title>&lt;my-element> Demo</title>
-    <script type="module" src="../components/sample-component/my-element.js"></script>
+    <script type="module" src="../components/counter-component/counter-component.js"></script>
+    <script type="module" src="../components/slider-component/slider-component.js"></script>
+    <script type="module" src="../components/filters-component/filter-component.js"></script>
     <style>
         p {
             border: solid 1px blue;
@@ -15,9 +17,8 @@
 </head>
 
 <body>
-    <my-element>
-        <p>This is child content</p>
-    </my-element>
+    <counter-component></counter-component>    
+    <filter-component></filter-component>
 </body>
 
 </html>
