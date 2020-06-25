@@ -1,1 +1,0 @@
-Create Your component by creating new component folder in "src".

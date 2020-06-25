@@ -1,0 +1,1 @@
+{"version":3,"file":"filter-component.d.ts","sourceRoot":"","sources":["../../src/filters-component/filter-component.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAA2B,MAAM,aAAa,CAAC;AAElE,qBACa,eAAgB,SAAQ,UAAU;IAC7C,MAAM,CAAC,MAAM,kCAMX;IAEF,MAAM;CAMP;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,kBAAkB,EAAE,eAAe,CAAC;KACrC;CACF"}
