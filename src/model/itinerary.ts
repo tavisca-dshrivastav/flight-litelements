@@ -1,4 +1,4 @@
-import { TravelFlightInfo } from './travelFlightInfo.js';
+import { TravelFlightInfo } from './travelFlightInfo';
 
 export interface Itinerary {
   arrival: TravelFlightInfo;
@@ -6,3 +6,9 @@ export interface Itinerary {
   duration: String;
   stopInformation: String;
 }
+
+export interface ItineraryConstructor {
+  clone(): Itinerary;
+}
+
+export var Itinerary: ItineraryConstructor;
